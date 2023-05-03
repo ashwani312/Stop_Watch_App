@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(172, 187, 201);
+}
+
+nav{
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(181, 33, 181);
+    color: white;
+    position: fixed;
+}
+nav ul{
+    list-style: none;
+    
+}
+nav ul li{
+    font-size: 2rem;
+}
+.container{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    flex-direction: column;
+    
+}
+.stopwatch{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)),url(images/b3.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 2rem 6rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+
+}
+.stopwatch h1{
+    font-size: 50px;
+}
+.stopwatch h1 span{
+    font-size: 30px;
+    /* display: none; */
+    
+}
+.buttons{
+    display: flex;
+    align-items: center;
+}
+.buttons img{
+    height: 50px;
+    margin: 0 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.buttons img:hover{
+    scale: 1.1;
+    transition: 0.5s all;
+}
+.buttons img:nth-child(2){
+    height: 80px;
+}
